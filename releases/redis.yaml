@@ -36,3 +36,4 @@ spec:
         runAsUser: 0
       persistence:
         enabled: false
+      nodeSelector: nodepool1

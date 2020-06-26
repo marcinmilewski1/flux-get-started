@@ -26,6 +26,7 @@ spec:
       labels:
         app: podinfo
     spec:
+      nodeSelector: nodepool1
       initContainers:
       - name: init
         image: alpine:3.10.1

@@ -14,7 +14,8 @@ spec:
     name: mongodb
     version: 7.6.3
   values:
-    nodeSelector: nodepool1
+    nodeSelector:
+      agentpool: nodepool1
     image:
       repository: bitnami/mongodb
       tag: 4.0.13

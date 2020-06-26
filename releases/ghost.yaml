@@ -14,7 +14,8 @@ spec:
     ref: master
     path: charts/ghost
   values:
-    nodeSelector: nodepool1
+    nodeSelector:
+      agentpool: nodepool1
     image:
       repository: bitnami/ghost
       tag: 3.1.1-debian-9-r0
